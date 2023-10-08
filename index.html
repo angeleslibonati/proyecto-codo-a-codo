@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">  <!--idioma-->
+    <head>   <!--cabecera abre-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>proyecto</title>  <!--es lo que vemos en la pestaña al abrir la pagina web-->
+        <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">  <!--Icono que se ve junto al texto-->
+        <link rel="stylesheet" href="./css/style.css">
+    </head>  <!--cabecera cierra-->
+
+    <body> 
+        <header>
+            <section class="cabecera">
+                <div class="padreLogo">
+                    <a href="#" class="logoCabecera">
+                        <img src="./assets/img/codoacodo.png" alt="logo de codo a codo 4.0" loading="lazy" class=" cabecera logoCabecera">
+                    </a>
+                    <h2 class="conferenciaHeader">Conf Bs As </h2>
+                </div>
+                
+                <nav class="navCabecera">
+                    <ul>
+                        <li><a href="#conferencia" class="anclaBlanca">La conferencia</a></li>
+                        <li><a href="#oradores" class="anclaGris">Los oradores</a></li>
+                        <li><a href="#lugarFecha" class="anclaGris">El lugar y la fecha</a></li>
+                        <li><a href="#formularioOrador" class="anclaGris">Conviertete en orador</a></li>
+                        <li><a href="./pages/tickets.html" class="anclaVerde">Comprar tickets</a></li>
+                    </ul>
+                
+                </nav>
+            </section>
+            
+            <section id="conferencia" class="cabeceraSection">
+                <!--<img src="./assets/img/ba1.jpg" alt="ba1" class="imagenFondo cabecera"> aca va la imagen de fondo, se coloca en css-->
+                <div class="divConferencia">
+                    <h1>Conf Bs As</h1>
+                    <p class=" conferenciaConTitulo textoEncima">
+                        Bs As llega por primera vez a Argentina. Un evento para compartir con 
+                        nuestra comunidad el conocimiento y experiencia de los expertos que 
+                        estan creando el futuro de Internet. Ven a conocer a miembros del 
+                        evento, a otros estudiantes de Codo a Codo y los oradores de primer
+                        nivel que tenemos para ti. Te esperamos!
+                    </p>
+                    <a href="#formularioOrador" class="botonFormulario conferenciaConTitulo">Quiero ser orador</a>
+                    <a href="./pages/tickets.html" class="botonTicket conferenciaConTitulo">Comprar tickets</a>
+                </div>
+            </section>
+            
+        </header>  
+
+        <main>            <!--cuerpo principal-->
+            <section id="oradores" class="oradores">
+                <h2>
+                    <div>CONOCE A LOS</div>
+                    ORADORES
+                </h2>
+                <div class="padreTarjeta">    
+                    <div class="tarjeta">
+                        <img src="./assets/img/steve.jpg" alt="Foto Steve Jobs, presentando telefono"  loading="lazy">
+                        
+                        <div class="cuerpoTarjeta">
+                            <h4 class="temaAmarillo">JavaScrip</h4>
+                            <h4 class="temaCeleste">React</h4>
+                            <h3 class="tituloNombre">Steve Jobs</h3>
+                            <p>
+                                Fundó Apple en 1976 junto con un amigo de la adolescencia, 
+                                Steve Wozniak, con ayuda del excompañero de Jobs en Atari, 
+                                Ronald Wayne, en el garaje de su casa.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="tarjeta">
+                        <img src="./assets/img/bill.jpg" alt="Foto Bill Gates" loading="lazy">
+
+                        <div class="cuerpoTarjeta">
+                            <h4 class="temaAmarillo">JavaScrip</h4>
+                            <h4 class="temaCeleste">React</h4>
+                            <h3 class="tituloNombre">Bill Gates</h3>
+                            <p>
+                                Más conocido como Bill Gates, es un magnate empresarial, 
+                                desarrollador de software, inversor, autor y filántropo 
+                                estadounidense. Es cofundador de Microsoft, junto con su difunto 
+                                amigo de la infancia Paul Allen.
+                            </p>  
+                        </div>
+                    </div>
+
+                    <div class="tarjeta">
+                        <img src="./assets/img/ada.jpeg" alt="Foto Ada Lovelace" loading="lazy">
+
+                        <div class="cuerpoTarjeta">
+                            <h4 class="temaGris">Negocios</h4>
+                            <h4 class="temaRojo">Startups</h4>
+                            <h3 class="tituloNombre">Ada Lovelace</h3>
+                            <p>
+                                Fue una matemática y escritora británica, célebre sobre 
+                                todo por su trabajo acerca de la computadora mecánica 
+                                de uso general de Charles Babbage, la denominada máquina 
+                                analítica.
+                            </p>  
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <section id="lugarFecha" class="lugarsection"> 
+                <div class="lugar">
+                    <img src="./assets/img/honolulu.jpg" class= "lugar"alt="Imagen de Honolulu, Sur EEUU" loading="lazy">
+                </div>
+                <div class="cuerpoLugar">
+                    <h2 class="subtituloBsAs">Bs. As. - Octubre</h2>
+                    <p class="textoHonolulu">
+                        Buenos Aires es la provincia y localidad mas grande del estado de Argentina, 
+                        en los Estados Unidos. Honolulu es la más sureña de entre las principales 
+                        ciudades estadounidenses. Aunque el nombre de Honolulu se refiere 
+                        al área urbana en la costa sureste que cubre toda la ciudad (aproximadamente 600 km² desuperficie).
+                    </p>
+                    <a href="./pages/404.html" class="conoceMas">Conocé más</a>    <!--Error pagina 404-->
+                </div>
+                
+            </section>
+
+           <!-- <section class="sectionMaps">
+                <a href="https://www.google.com/maps/place/Museo+del+Agua+y+de+la+Historia+Sanitaria/@-34.5975626,-58.3976303,15z/data=!4m14!1m7!3m6!1s0x95bccabfe23f5e3b:0x6f90fe1eadb235cf!2sMuseo+del+Agua+y+de+la+Historia+Sanitaria!8m2!3d-34.6007066!4d-58.3950125!16s%2Fm%2F06w1hgr!3m5!1s0x95bccabfe23f5e3b:0x6f90fe1eadb235cf!8m2!3d-34.6007066!4d-58.3950125!16s%2Fm%2F06w1hgr?entry=ttu
+                " target="_blank" class="linkMaps"><div class="ubicacionEn">UBICACION EN</div>MAPS</a>
+                
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.1366237167395!2d-58.39758742425996!3d-34.60070657295539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccabfe23f5e3b%3A0x6f90fe1eadb235cf!2sMuseo%20del%20Agua%20y%20de%20la%20Historia%20Sanitaria!5e0!3m2!1ses!2sar!4v1692228848422!5m2!1ses!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapaLugar"></iframe>
+                </div>
+
+            </section> -->
+           
+           
+
+            <section id="formularioOrador" class="oradores">
+                <h2 >
+                    <div>CONVIERTETE EN</div>
+                    ORADOR
+                </h2>
+                <p class="parrafoFormulario">
+                   Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!
+                </p>
+
+                <form action="./pages/404.html" method="get" class="formulario">       <!--FORMULARIO PARA INSCRIPCION-->
+                    <div>
+                        <input type="text" placeholder=" Nombre" required class="nombre"> 
+                        <input type="text" placeholder=" Apellido" required class="apellido">
+                    </div>
+
+                    <div>
+                        <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder=" ¿Sobre que quiere hablar?" required class="ingresoTexto"></textarea>
+                    </div>
+
+                    <p class="subcontenido">
+                        Recuerda incluir un Titulo para tu charla
+                    </p>
+
+                    <div>
+                        <!--<input type="reset" value="Limpiar Formulario"> LIMPIA EL FORMULARIO, BORRA TODO LO CARGADO-->   
+                        <input type="submit" value="Enviar" class="botonEnviar">
+                    </div>
+                </form>
+                
+            </section>
+
+        </main>
+
+    <!-- <aside >
+            <p>PUBLICIDAD</p>
+            <div>
+                <iframe src="https://www.youtube.com/embed/ptXiQwE535s?controls=0&amp;start=10" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p>
+                    En este video aprenderás a manejarte en la terminal de comandos de git, 
+                    es importante ya que se requiere mínimo conocimiento para moverse entre las terminales
+
+                </p>              
+            </div>
+        </aside>
+        -->
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="./pages/404.html" class="anclaBlanca">Preguntas frecuentes</a></li>
+                    <li><a href="./pages/404.html" class="anclaBlanca">Contáctanos</a></li>
+                    <li><a href="./pages/404.html" class="anclaBlanca">Prensa</a></li>
+                    <li><a href="./pages/404.html" class="anclaBlanca">Conferencias</a></li>
+                    <li><a href="./pages/404.html" class="anclaBlanca">Términos y Condiciones</a></li>
+                    <li><a href="./pages/404.html" class="anclaBlanca">Privacidad</a></li>
+                    <li><a href="./pages/404.html" class="anclaBlanca">Estudiantes</a></li>
+                </ul>
+            </nav>  
+        </footer>
+        
+    </body>   <!-- cuerpo principal cierra-->
+</html>
